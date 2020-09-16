@@ -1,0 +1,63 @@
+/*card column*/
+.w3-container h4{
+    text-transform: uppercase;
+    color: #4E73DF;
+}
+
+.w3-container .harga{
+	background-color: pink;
+	font-weight: bold;
+}
+
+.harga{
+    background-color: pink;
+    font-weight: bold;
+}
+
+.w3-quarter{
+	box-shadow: 5px 10px #4E73DF;
+	margin-left: 0.95%;
+}
+
+/*dokumen*/
+
+.wrap {
+    margin: 0 auto;
+    max-width: 1024px;
+    margin-top: 40px;
+    margin-left: 0%;
+}
+.tab {
+    margin: 0 0 40px 0;
+    width: 100%;
+    display: table;
+}
+.bar {
+    display: table-row;
+    background: #fff;
+}
+.bar:nth-of-type(odd) {
+    background: #02f6fa;
+}
+.bar.header {
+    font-weight: 900;
+    color: #ffffff;
+    background: #039BE5;
+}
+.cell {
+    padding: 10px 12px;
+    display: table-cell;
+}
+@media screen and (max-width: 580px) {
+    .tab {
+        display: block;
+    }
+    .bar {
+        padding: 12px 0;
+        display: block;
+    }
+    .cell {
+        padding: 2px 12px;
+        display: block;
+    }
+}
